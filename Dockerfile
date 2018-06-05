@@ -1,4 +1,4 @@
-FROM tomcat:8.0.20-jre8
+FROM tomcat8
 
 COPY tomcat-users.xml /usr/local/tomcat/conf/
 COPY grants.war /usr/local/tomcat/webapps/
